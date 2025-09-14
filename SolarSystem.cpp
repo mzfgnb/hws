@@ -12,7 +12,7 @@
 //   g++ solar_system_sfml.cpp -o solar -I/opt/sfml2/include -L/opt/sfml2/lib -lsfml-graphics -lsfml-window -lsfml-system
 
 // Перед запуском необходимо в терминале прописать команду - export LD_LIBRARY_PATH=/opt/sfml2/lib:$LD_LIBRARY_PATH
-// где вместо /opt/sfml2/lib должен стоять ваш путь с sfml2 библиотеками, к сожалениюя пока что не в силах это починить :(
+// где вместо /opt/sfml2/lib должен стоять ваш путь с sfml2 библиотеками, к сожалениюя пока что я не в силах это починить :(
 
 static constexpr float PI = 3.14159265358979323846f;
 
@@ -212,3 +212,4 @@ int main() {
 
     return 0;
 }
+

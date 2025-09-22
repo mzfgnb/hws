@@ -1,4 +1,6 @@
-# Запуск
+## Для Solar System
+
+###  Запуск
 
 Если при запуске программы возникает ошибка с библиотеками, то необходимо в терминале перед запуском программы прописать команду
 
@@ -6,7 +8,7 @@
 
 где вместо `/opt/sfml2/lib` должен стоять ваш путь с sfml2 библиотеками
 
-# Компиляция:
+### Компиляция:
   **Для SolarSystem.cpp**
   
   ```g++ SolarSystem.cpp -o solar -I/opt/sfml2/include -L/opt/sfml2/lib -lsfml-graphics -lsfml-window -lsfml-system```

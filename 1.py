@@ -22,7 +22,7 @@ print("-------------------------")
 
 def task_2(a):
     if 100 <= int(a) <= 999:
-        if int(str(a[0])) ** 3 and int(str(a[1])) ** 3 and int(str(a[2])) ** 3:
+        if ((int(str(a[0])) ** 3) + (int(str(a[1])) ** 3) + (int(str(a[2])) ** 3) == int(a)):
             return abs(int(a))
     return 0
 
@@ -143,6 +143,7 @@ def task10():
     return result
 
 print("Номер нарушителя:", task10())
+
 
 
 

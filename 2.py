@@ -53,3 +53,6 @@ def task6(filename, k):
         del lines[k-1]
     with open(filename, "w", encoding="utf-8") as f:
         f.writelines(lines)
+
+
+task6("data.txt", 3)
